@@ -1,7 +1,6 @@
 //your JS code here. If required.
 
-let width = 0;
-let height = 0;
+
 
 const eventHandler = ()=>{
 
@@ -16,8 +15,8 @@ const eventHandler = ()=>{
 const displayContent = ()=>{
 
 	const divElement = document.createElement("div");
-
-	const heading = `<h2> Width: <span id = s1>${window.innerWidth}</span> and Height: <span id = s2>${window.innerHeight}</span></h2>`;
+	
+	const heading = `<h1 id="sizeInfo"> Width: <span id = s1>${window.innerWidth}</span> and Height: <span id = s2>${window.innerHeight}</span></h1>`;
 
     divElement.innerHTML= heading;
 	document.body.appendChild(divElement);	
